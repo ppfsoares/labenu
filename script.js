@@ -1,5 +1,5 @@
 function alerta() {
-  event.preventDefault();
+  event.preventDefault(); 
   alert("Página em construção!");
 }
 
