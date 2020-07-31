@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Projeto Labenu - Paula - sou@paulasoares.me</title>
+
+  <link rel='stylesheet' href='styles.css'/>
+  <script type="text/javascript" src="script.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+ 
+  <ul>
+    <li><a href = "" onclick="alerta()">HOME</a></li>
+    <li><a href = "" onclick="alerta()">CURSOS</a></li>
+    <li><a href = "" onclick="alerta()">CONTATO</a></li>
+  </ul>
+  
+  <div id='central'>
+    <h2>Projeto Seletivo Labenu</h2>  
+    <img id='logo' src='Labenu_logo.png'/> 
+  </div>
+
+  <p id='dir'><em>Turma Web Full Stack</em></p>
+
+  <div id='form'>
+  <p id='msg'> </p>  
+  <form action='/' >
+      <input  id='email' 
+              name='email' 
+              type='email'
+              placeholder= 'Coloque seu e-mail para contato :)'
+       />
+      <button onclick="valida()"> ENVIAR </button>        
+  </form>
+  </div>
+</body>
+</html>
